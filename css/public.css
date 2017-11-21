@@ -1569,11 +1569,14 @@ body {
 .hy-list .text strong{font-size: .22rem;color: #333;font-weight: normal;display: block;line-height: 1.3;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis; text-overflow: ellipsis;margin-bottom: .1rem;}
 .hy-list .text p{font-size: .2rem;color: #9e9d9d;line-height: 1.3;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis; text-overflow: ellipsis;margin-bottom: .15rem;}
 .hy-list .text p span{color: #ff4b4b;}
+
 .hy-list .bottom{padding-bottom: .1rem;}
 .hy-list .bottom span{font-size: .18rem;color: #666;line-height: .35rem;}
 .hy-list .bottom span img{position: relative;top: -.02rem;width: .23rem;height: .22rem;margin-left: .1rem;vertical-align: middle;}
 .hy-list .bottom a{width: .95rem;height: .35rem;border: 1px solid #3099ff;border-radius: .08rem;float: right;text-align: center;font-size: .18rem;color: #3099ff;line-height: .35rem;}
 .hy-list .bottom .s1{color: #b0b0b0;}
+.hy-list .bottom var{position: fixed;z-index: 3;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.7);text-align: center;display: none;}
+.hy-list .bottom var img{position: absolute;left: 50%;top: 50%;margin-left: -2.5rem;margin-top: -1.7rem;width: 5rem;height: 3.4rem;}
 
 
 .open{padding-bottom: .3rem;background: #fff;overflow: hidden;}
@@ -1616,3 +1619,5 @@ body {
 .fixed-menu a img{width: .26rem;height: .24rem;margin-right: .15rem;margin-top: .23rem;}
 .fixed-menu .a1{background: #3099ff;color: #fff;}
 .fixed-menu .img1{width: .25rem;height: .25rem;margin-top: .22rem;}
+
+.zk_pup{display: none;}

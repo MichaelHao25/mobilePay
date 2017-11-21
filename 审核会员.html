@@ -31,6 +31,7 @@
 				<div class="bottom">
 					<span>用户已上传行驶证<img src="img/ico_1.png" alt=""></span>
 					<a href="#">审核开卡</a>
+					<var><img src="img/sl.jpg" alt=""></var>
 				</div>
 				<em>5</em>
 			</li>
@@ -59,11 +60,24 @@
 				<div class="bottom">
 					<span>用户已上传行驶证<img src="img/ico_1.png" alt=""></span>
 					<a href="#">审核开卡</a>
+					<var><img src="img/sl.jpg" alt=""></var>
 				</div>
 				<em>3</em>
 			</li>
 		</ul>
 	</div>
 </body>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script>
+$('.hy-list .bottom span img').click(function(event) {
+    $(this).parent().siblings('var').fadeIn();
+    event.stopPropagation();
+  });
+
+$('body').click(function(event) {
+	$('.hy-list .bottom var').fadeOut();
+
+});
+</script>
 </html>
 
