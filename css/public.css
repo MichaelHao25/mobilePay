@@ -147,14 +147,14 @@ input[type=checkbox]::-ms-check,input[type=radio]::-ms-check {
 
 .zx-setup ul li {
     width: 100%;
-    height: .98rem;
+    height: .88rem;
     margin-bottom: 1px;
     background: #fff
 }
 
 .zx-setup ul li h6 {
     float: left;
-    line-height: .98rem;
+    line-height: .88rem;
     margin-left: .15rem;
     font-size: .22rem;
     color: #333
@@ -162,14 +162,14 @@ input[type=checkbox]::-ms-check,input[type=radio]::-ms-check {
 
 .zx-setup ul li h5 {
     float: right;
-    height: .98rem;
+    height: .88rem;
     overflow: hidden;
     margin-right: .15rem
 }
 
 .zx-setup ul li h5 span {
     float: left;
-    line-height: .98rem;
+    line-height: .88rem;
     color: #ababab;
     font-size: .2rem;
     margin-right: .13rem
@@ -179,7 +179,7 @@ input[type=checkbox]::-ms-check,input[type=radio]::-ms-check {
     display: block;
     width: .12rem;
     height: .2rem;
-    margin-top: .4rem
+    margin-top: .35rem
 }
 
 .zx-setup ul li h5 label {
@@ -191,7 +191,7 @@ input[type=checkbox]::-ms-check,input[type=radio]::-ms-check {
     border-radius: .185rem;
     box-sizing: content-box;
     vertical-align: middle;
-    margin-top: .32rem;
+    margin-top: .27rem;
     transition: .6s
 }
 
@@ -445,8 +445,9 @@ input[type=checkbox]::-ms-check,input[type=radio]::-ms-check {
     font-size: .25rem;
     line-height: .94rem;
     color: #fff;
-    width: 1.8rem;
+    width: 1rem;
     text-align:right;
+    margin-right: .1rem;
 }
 .zx-record-t .top h4 input{
     border: none;
