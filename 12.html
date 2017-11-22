@@ -120,6 +120,15 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="layout">
+		<div class="wrap">
+			<h3>会员消费出示二维码</h3>
+			<div class="qrcode">
+				<img src="img/qocode.png" alt="">
+			</div>
+		</div>
+	</div>
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/swiper-3.3.1.jquery.min.js"></script>
 	<script>
@@ -138,6 +147,15 @@
 				slideShadows : false
 			}
 		})
+		$('.hcl-list .item .step2 .wrap .qrcode').on('click', function() {
+			$('.layout').fadeIn();
+		});
+		$('.layout').on('click', function() {
+			$('.layout').fadeOut();
+		});
+		$('.layout .wrap').on('click', function(event) {
+			event.stopPropagation();
+		});
 	</script>
 </body>
 </html>

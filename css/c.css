@@ -101,6 +101,7 @@
 	visibility: hidden;
 }
 .hcl-list .item .step2 .wrap{
+	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -156,6 +157,12 @@
 	width: 0.5rem;
 }
 
+.hcl-list .item .step2 .wrap .qrcode{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
 .hcl-list .item .step2 .wrap .qrcode img{
 	display: block;
 	width: 0.44rem;
@@ -222,4 +229,35 @@
 	padding-top: 0.1rem;
 	font-size: 0.18rem;
 	color: #c0c0c0;
+}
+
+
+ .layout{
+ 	position: fixed;
+ 	top: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+ 	background: rgba(0,0,0,0.5);
+ 	z-index: 10;
+ 	display: none;
+}
+ .layout .wrap{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	padding: 0.3rem;
+ 	background: #fff;
+ 	border-radius: 5px;
+ }
+
+.layout h3{
+	font-size: .2rem;
+	padding-bottom: 0.2rem;
+	text-align: center;
+}
+.layout img{
+	width: 2.5rem;
+	height: 2.5rem;
 }
