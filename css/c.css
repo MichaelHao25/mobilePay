@@ -97,7 +97,9 @@
 .hcl-list .item .step2 .swiper-container-horizontal>.swiper-pagination-bullets span.swiper-pagination-bullet-active, .hcl-list .item .step2 .swiper-pagination-custom span.swiper-pagination-bullet-active, .hcl-list .item .step2 .swiper-pagination-fraction span.swiper-pagination-bullet-active{
 	background-color: #3099ff;
 }
-
+.hcl-list .item .step2 .wrap.vh>*{
+	visibility: hidden;
+}
 .hcl-list .item .step2 .wrap{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -109,7 +111,8 @@
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	/*width: 376px;*/
+	width: 376px;
+	margin: 0 auto;
 	height: 2.44rem;
 	box-sizing: border-box;
 	padding: 0.2rem 0.16rem 0.5rem;
